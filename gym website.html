@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARUN FITNESS</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background-image: url(img.jpg);
+            background-repeat: no repeat;
+            background-size: cover;
+            height: 1200;
+        }
+        .left{
+            display: inline-block;
+            /* border: 2px solid white; */
+            position: absolute;
+            left: 34px;
+            top: 20px;
+
+        }
+        .left img{
+            display: inline-block;
+           width: 80px;
+           height: 50px;
+           padding: 12px 12px;
+           
+        }
+        .mid{
+            /* border: 2px solid wheat; */
+            display: block;
+            width: 40%;
+            margin: 40px auto;
+        }
+        .right{
+            /* border: 2px solid cyan; */
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+        }
+
+        .btn{
+            border: 2px solid grey;
+            border-radius: 10px;
+            color: white;
+            font-size: 10px;
+            margin: 8px 12px;
+            padding: 10px 16px;
+            background-color: black;
+            cursor: pointer;
+
+        }
+        .btn:hover{
+            background-color: rgb(99, 99, 71);
+        }
+
+        p{
+            color: rgb(62, 151, 62);
+            text-align: center;
+        }
+        div{
+            line-height: 4px;
+            color: white;
+            
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 15px 15px;
+            font: size 10px;
+            
+        }
+
+        .navbar li a:hover{
+            text-decoration: underline;
+            color: rgb(204, 143, 143);
+        }
+
+        .container{
+            /* border: 2px solid green; */
+            border-radius: 10px;
+            margin:120px 95px ;
+            padding: 75px 75px;
+            width: 33%;
+        }
+
+        .form-gro input{
+            text-align: center;
+            display: block;
+            width: 320px;
+            padding: 10px;
+            border: 2px solid white;
+            border-radius: 10px;
+            margin: 11px auto;
+            
+        }
+
+        .container h3{
+            text-align: center;
+            padding: 10px 0px;
+        }
+
+      .container button.btn{
+          display: block;
+          text-align: center;
+          margin:34px auto;
+          width: 23%;
+          
+          
+        
+      }
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.jpg"> 
+            <div>ARUN FITNESS</div>
+        </div>
+        <div class="mid">
+          
+          <ul class="navbar">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">CALL US NOW</button>
+            <button class="btn">EMAIL US</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>JOIN THE BEST GYM OF ALIGARH NOW</h3>
+        <form>
+            <div class="form-gro">
+                
+                <input type="text" name="" placeholder="ENTER YOUR NAME"> 
+            </div>
+            <div class="form-gro">
+                
+                <input type="number"  placeholder="ENTER YOUR AGE"> 
+            </div>
+            <div class="form-gro">
+                
+                <input type="email" name="" placeholder="ENTER YOUR EMAIL"> 
+            </div>
+            <div class="form-gro">
+                
+                <input type="text" name="" placeholder="ENTER YOUR LOCALITY"> 
+            </div>
+            <button class="btn">SUBMIT</button>
+        </form>
+        
+    </div>
+    
+</body>
+</html>
